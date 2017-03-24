@@ -1,3 +1,3 @@
 # OpenAgent
 
-![Theory](https://github.com/CarsonScott/abstract-neural-systems)
+[Theory (Abstract Neural Systems)](https://github.com/CarsonScott/abstract-neural-systems)
