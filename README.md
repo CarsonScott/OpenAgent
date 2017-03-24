@@ -1,2 +1,3 @@
 # OpenAgent
-Nested systems of autonomous agents
+
+![Theory](https://github.com/CarsonScott/abstract-neural-systems)
