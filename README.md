@@ -4,7 +4,7 @@
 
 ### Notation
 
-Dot (DO-OF-TO) notation is a phrase structure that refulects mathematical functions, such that f(x) -> y is written as: 
+Dot (DO-OF-TO) notation is a phrase structure that reflects mathematical functions, such that f(x) -> y is written: 
 
 #### .f[x]:y
 
