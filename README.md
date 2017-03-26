@@ -1,4 +1,4 @@
-# Open Agent: A Multi-Agent System of Control 
+## OpenAgent: A Multi-Agent System of Control 
 
 ### Agents
 
@@ -12,7 +12,7 @@ A superagent passing inputs to subagents is like a supervisor delegating tasks t
 
 This enables control over multi-level systems. Top-level agents need only control those from one level down, and allow control to "propagate" down to the lowest-level agents. 
 
-## A Language for Nested Automata
+## DOT: A Language for Nested Automata
 
 ### Notation
 
