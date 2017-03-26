@@ -1,6 +1,6 @@
 # OpenAgent
 
-## A Formal Language for Nested Automata
+## A Language for Nested Automata
 
 ### Notation
 
@@ -14,3 +14,4 @@ The letter symbols represent stored variables and functions. Functions require a
 The use of brackets is restricted, such that all brackets are considered invalid except for those that immediately follows functions.
 
 Periods define the start of new statements, as well as the end of previous statements. Colons indicate the storage of values, where the left side contains a variable and the right side contains a value, and the result of the colon is that the variable takes on the value.
+
