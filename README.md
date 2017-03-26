@@ -2,9 +2,11 @@
 
 ### Agents
 
-An agent is defined by a set of data and a set of functions, called memory and actions, respectively. An agent has a function that executes a sequence of actions, which manipulate data in the memory. Every action is made of the function of a lower-level agent.The superagent (higher-level) is said to contain the subagent(lower-level). 
+An agent is a system of memory and a set of actions, where the actions are functions that manipulate memory, and the functions are agents that are stored in a set.
 
 ### Oligarchies 
+
+Stored agents are considered to be subordinates of the higher agent. Their interactions mimic that of a manager-employee relationship, where the manager's job is to delegate tasks to employees, whose job it is to carry out those tasks and report back when finished. In a sense, agents are given "tasks" when a higher agent calls their functions, and  "report back" when it receives their outputs.
 
 A superagent passing inputs to subagents is like a supervisor delegating tasks to employees. The superagent controls behavior and of subagents, as well as their access to information.  
 
