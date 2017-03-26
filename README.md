@@ -1,6 +1,6 @@
 # OpenAgent
 
-### Base Agents
+### Agents and Control Hierarchies 
 
 An agent is defined by a set of data and a set of functions, called memory and actions, respectively. An agent has a function that executes a sequence of actions, which manipulate data in the memory. Every action is made of the function of a lower-level agent.The superagent (higher-level) is said to contain the subagent(lower-level). 
 
