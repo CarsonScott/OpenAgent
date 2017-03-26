@@ -2,9 +2,11 @@
 
 ### Base Agents
 
-An agent has a set of actions (functions) it can perform, as well as memory (variables) it can manipulate. Sequences of actions that reference/store data in memory are used to calculate an agent's output. The functions called during each action are also agents, called subagents, which are said to be "nested" in the upper-level agent. 
+An agent is defined by a set of data and a set of functions, called memory and actions, respectively. An agent has a function that executes a sequence of actions, which manipulate data in the memory. Every action is made of the function of a lower-level agent.The superagent (higher-level) is said to contain the subagent(lower-level). 
 
-A hierarchy of agents is called a society, such that every member shares a common root, where a root is an agent not nested by another). In other words, a society is a set of subagents, along with every subagent's subagents, and so on. 
+A superagent passing inputs to subagents is like a supervisor delegating tasks to employees. The superagent controls behavior and of subagents, as well as their access to information.  
+
+This enables control over multi-level systems. Top-level agents need only control those from one level down, and allow control to "propagate" down to the lowest-level agents. 
 
 ## A Language for Nested Automata
 
