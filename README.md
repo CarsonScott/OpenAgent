@@ -1,5 +1,11 @@
 # OpenAgent
 
+### Base Agents
+
+An agent has a set of actions (functions) it can perform, as well as memory (variables) it can manipulate. Sequences of actions that reference/store data in memory are used to calculate an agent's output. The functions called during each action are also agents, called subagents, which are said to be "nested" in the upper-level agent. 
+
+A hierarchy of agents is called a society, such that every member shares a common root, where a root is an agent not nested by another). In other words, a society is a set of subagents, along with every subagent's subagents, and so on. 
+
 ## A Language for Nested Automata
 
 ### Notation
