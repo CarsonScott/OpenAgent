@@ -1,50 +1,36 @@
-# Numerical Agents
+class Sub:
+	def f (self, inputs):
+		return inputs[0] - inputs[1]
 
-class Sub :
+class Add:
+	def f (self, inputs):
+		return inputs[0] + inputs[1]
 
-	def f (self, x, z):
-		return x - z
+class Mult:
+	def f (self, inputs):
+		return inputs[0] * inputs[1]
 
-class Add :
+class Less:
+	def f (self, inputs):
+		return inputs[0] < inputs[1]
 
-	def f (self, x, z):
-		return x + z
+class Equal:
+	def f (self, inputs):
+		return inputs[0] == inputs[1]
 
-class Mult :
+class More:
 
-	def f (self, x, z):
-		return x * z
+	def f (self, inputs):
+		return inputs[0] > inputs[1]
 
-# Comparision Agents
+class Not:
+	def f (self, inputs):
+		return inputs[0] == 0
 
-class Less :
+class Or:
+	def f (self, inputs):
+		return inputs[0] == 1 or inputs[1] == 1 
 
-	def f (self, x, z):
-		return x < z
-
-class Equal :
-
-	def f (self, x, z):
-		return x == z
-
-class More :
-
-	def f (self, x, z):
-		return x > z
-
-# Logic Agents
-
-class Not :
-
-	def f (self, x):
-		return x == 0
-
-class Or :
-
-	def f (self, x, z):
-		return x == 1 or z == 1 
-
-class And :
-
-	def f (self, x, z):
-		return x == 1 and z == 1
+class And:
+	def f (self, inputs):
+		return inputs[0] == 1 and inputs[1] == 1
