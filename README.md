@@ -1,5 +1,7 @@
 ## A Multi-Agent System for Hierarchical Control 
 
+The following paper is a theoretical outline of OpenAgent systems. [See examples](https://github.com/CarsonScott/OpenAgent/blob/master/EXAMPLE.md) for actual code and step-by-step instructions.
+
 ### Agents
 
 An agent is a system of memory and a set of actions, where the actions are functions that manipulate memory, and the functions are agents that are stored in a set.
