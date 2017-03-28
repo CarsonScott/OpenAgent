@@ -1,5 +1,6 @@
 ## Example- Custom agent that returns the sum of two inputs 
 
+![Custom Agent](https://github.com/CarsonScott/OpenAgent/blob/master/img/CustomAgent.png)
 
 First, include the module in your file:
         
@@ -32,4 +33,3 @@ Calculate results:
         
         # Output: 108 
         
-
