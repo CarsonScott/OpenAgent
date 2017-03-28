@@ -12,23 +12,23 @@ Stored agents are considered to be subordinates of the higher agent. Their inter
 
 ### Control
 
-This allows control over multiple layers. The top-level supervisor controls its direct subordinates, which triggers a wave of activity that propagates to the lowest level. an agent recieves inputs from a supervisor to store in memory. Each subagent is given a subset of memory, which starts the process over again. 
+This allows control over multiple layers. The top-level supervisor controls its direct subordinates, which triggers a wave of activity that propagates to the lowest level. an agent receives inputs from a supervisor to store in memory. Each subagent is given a subset of memory, which starts the process over again. 
 
-This  happens recursively until bottom-level output is recieved by their supervisors. Now activity propagates upward, and eventually reaches the top-level agent where a single output is sent out to the environment.
+This  happens recursively until bottom-level output is received by their supervisors. Now activity propagates upward, and eventually reaches the top-level agent where a single output is produced and sent to the environment.
 
 ## A Formal Language for Nested Automata
 
 ### Notation
 
-DOT (DO-OF-TO) notation is a phrase structure that reflects mathematical functions, such that f(x) -> y is written as: 
+DOT (DO-OF-TO) notation is a phrase structure that reflects mathematical functions> A function f(x) -> y is written as: 
 
 #### .f[x]:y
 
-The letters x and y represent stored variables, and f represents a function. The brackets immediately following a function are the parameters to that function.
+The letters x and y are stored variables, and f is a function. The brackets immediately following f are the parameters. In this case, f receives one parameter x.
 
 ### Grammar
 
 A period signals that a new statement is starting. A colon indicates that a value (left of symbol) is being stored in memory (right of symbol).
 
 
-
+![](https://github.com/CarsonScott/OpenAgent/blob/master/img/CustomAgent.png)
