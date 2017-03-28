@@ -31,4 +31,3 @@ The letters x and y are stored variables, and f is a function. The brackets imme
 A period signals that a new statement is starting. A colon indicates that a value (left of symbol) is being stored in memory (right of symbol).
 
 
-![](https://github.com/CarsonScott/OpenAgent/blob/master/img/CustomAgent.png)
