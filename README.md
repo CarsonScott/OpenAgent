@@ -1,7 +1,5 @@
 ## A Multi-Agent System for Hierarchical Control 
 
-The following paper is a theoretical outline of OpenAgent systems. [See examples](https://github.com/CarsonScott/OpenAgent/blob/master/EXAMPLE.md) for actual code and step-by-step instructions.
-
 ### Agents
 
 An agent is a system of memory and a set of actions, where the actions are functions that manipulate memory, and the functions are agents that are stored in a set.
@@ -31,3 +29,38 @@ The letters x and y are stored variables, and f is a function. The brackets imme
 A period signals that a new statement is starting. A colon indicates that a value (left of symbol) is being stored in memory (right of symbol).
 
 
+## Example- Custom agent that returns the sum of two inputs 
+
+![Custom Agent](https://github.com/CarsonScott/OpenAgent/blob/master/img/CustomAgent.png)
+
+First, include the module in your file:
+        
+        import OpenAgent as oa
+
+Create an agent and set the memory size:
+        
+        ca = oa.CustomAgent(3)
+
+Define elements of memory to hold the input/output values:
+
+        ca.add_input(0)
+        ca.add_input(1)
+        ca.add_output(2)
+
+Store sub-agents to call their functions:
+
+        b = oa.Add()
+        ca.add_agent(b)
+
+Store statements to convert into actions:
+
+        a = ".0[0,1]:2"
+        ca.add_action(a)
+
+Calculate results:
+
+        x = [27, 81]
+        y = ca.f(x) 
+        
+        # Output: [108] 
+        
