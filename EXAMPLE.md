@@ -31,5 +31,5 @@ Calculate results:
         x = [27, 81]
         y = ca.f(x) 
         
-        # Output: 108 
+        # Output: [108] 
         
