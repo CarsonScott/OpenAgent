@@ -34,3 +34,7 @@ class Or:
 class And:
 	def f (self, inputs):
 		return inputs[0] == 1 and inputs[1] == 1
+
+class Abs:
+	def f (self, inputs):
+		return abs(inputs[0])
